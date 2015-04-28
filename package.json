@@ -1,0 +1,28 @@
+{
+  "name": "contacts",
+  "version": "1.0.0",
+  "description": "AngularJS Course",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "bourne": "^0.4.0",
+    "bower": "^1.4.1",
+    "express": "^4.12.3",
+    "express-session": "^1.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uniacid/tutsplus-angularjs-from-scratch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uniacid/tutsplus-angularjs-from-scratch/issues"
+  },
+  "homepage": "https://github.com/uniacid/tutsplus-angularjs-from-scratch"
+}
