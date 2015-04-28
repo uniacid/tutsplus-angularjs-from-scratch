@@ -48,7 +48,7 @@ router
 			if (!data.length) {
 				db.insert(user, function (err, data) {
 					req.session.userId = data.id;
-					req.redirect('/');
+					res.redirect('/');
 				});
 			} else {
 				res.redirect('/login');
@@ -57,7 +57,7 @@ router
 	})
 	.get('/logout', function (req, res) {
 		req.session.userId = null;
-		req.redirect('/');
+		res.redirect('/');
 	})
 	.use(function (req, res, next) {
 		if (req.session.userId) {
